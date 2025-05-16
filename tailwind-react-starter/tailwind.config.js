@@ -1,15 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx}"],
   theme: {
     extend: {
+      colors: {
+        cream: '#FFFDF5',
+        ink: '#1A237E',
+      },
       fontFamily: {
-        press: ['"Press Start 2P"', 'cursive'],
+        body: ['"Times New Roman"', 'serif'],
       },
     },
   },
   plugins: [],
-}
+};
